@@ -112,7 +112,7 @@
       <CLanguageStandard>gnu11</CLanguageStandard>
       <CAdditionalWarning />
       <CppAdditionalWarning />
-      <ForcedIncludeFiles>c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\fc3qeagk.ar3\Micro Platforms\default\vm-intelli-pre.h;C:\Users\DELL\AppData\Local\Temp\VMBuilds\Sketch1\uno\Debug\.vmintelli\16722189863dd021f79647d5d6917255\vm-intelli-gcc-defines.h;c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\fc3qeagk.ar3\Micro Platforms\default\vm-intelli-post.h;$(ProjectDir)__vm\.Sketch1.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles>c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\fc3qeagk.ar3\Micro Platforms\default\vm-intelli-pre.h;C:\Users\DELL\AppData\Local\Temp\VMBuilds\Sketch1\uno\Debug\.vmintelli\61bcac5c3a8074d4a5e282f4a7e3e3aa\vm-intelli-gcc-defines.h;c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\fc3qeagk.ar3\Micro Platforms\default\vm-intelli-post.h;$(ProjectDir)__vm\.Sketch1.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <UndefineAllPreprocessorDefinitions>true</UndefineAllPreprocessorDefinitions>
       <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
       <PreprocessorDefinitions>_VMICRO_INTELLISENSE;__AVR_atmega328p__;__AVR_ATmega328P__;__AVR_ATmega328p__;_VMDEBUG=1;F_CPU=16000000L;ARDUINO=108010;ARDUINO_AVR_UNO;ARDUINO_ARCH_AVR;%(PreprocessorDefinitions)</PreprocessorDefinitions>

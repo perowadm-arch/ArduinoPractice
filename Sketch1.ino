@@ -4,20 +4,21 @@
  Author:	DELL
 */
 
-
+int LED1pin = 12;
+int buttonpin = 2;
 
 // the setup function runs once when you press reset or power the board
 void setup() {
-	pinMode(12, OUTPUT);
-	pinMode(10, OUTPUT);
+	pinMode(LED1pin, OUTPUT);
+	pinMode(buttonpin, INPUT);
 }
 
 // the loop function runs over and over again until power down or reset
 void loop() {
-	digitalWrite(10, LOW);
-	digitalWrite(12, HIGH);
-	delay(1000);
-	digitalWrite(12, LOW);
-	digitalWrite(10, HIGH);
-	delay(1000);
+	if (digitalRead(buttonpin) == HIGH) {
+		digitalWrite(LED1pin, HIGH);
+	}
+	else {
+		digitalWrite(LED1pin, LOW);
+	}
 }
